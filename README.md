@@ -18,7 +18,7 @@ $ ./0-fizzbuzz.py 89
 **Solution**
 I swapped the order of the `if/elif` statements. Started by checking if `number` was a multiple of `3` and `5`.
 
-## Print square
+## 1. Print square
 * Javascript code implementing the printing od a square.
 
 **Requirement**: The code should print a square of size 10 when 10 is passed as the size.
