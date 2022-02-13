@@ -65,4 +65,18 @@ $ ./1-print_square.js 10
 
 **Fix**
 - The call to `self.__password` was missing one underscore
-- The hashing of the is_valid_password was hashing to uppercase instead of lower case as in the password setter.
+- The hashing of the is_valid_password was hashing to uppercase instead of lower case as in the password setter.i
+
+## 4. Double linked list
+### Language
+**C** Implementation of a Double linked list in C
+
+**Original code**
+[3-user.py](https://github.com/holbertonschool/0x00-Fix_My_Code_Challenge/tree/master/4-delete_dnodeint)
+
+**My fixed coe**
+[delete_dnodeint](./delete_dnodeint)
+
+**Fix**
+- Replaced:
+`delete_dnodeint_at_index.c` line 46 **(*head)->prev-prev = (*head)->prev;** with => **(*head)->prev-prev = (*head)->next;** with:
