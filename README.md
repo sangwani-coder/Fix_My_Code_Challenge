@@ -1,5 +1,5 @@
-# Fix My code
-In this project I will be fixing bugs in the provided source code
+# Fix My code challenge two
+Debug Programs In familiar and unfamiliar languages
 ## Languages
 * Python
 * Javascript
