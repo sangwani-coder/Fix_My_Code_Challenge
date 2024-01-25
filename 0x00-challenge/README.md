@@ -79,4 +79,4 @@ $ ./1-print_square.js 10
 
 **Fix**
 - Replaced:
-`delete_dnodeint_at_index.c` line 46 **(*head)->prev-prev = (*head)->prev;** with => **(*head)->prev-next = (*head)->next;** with:
+`delete_dnodeint_at_index.c` line 46 **(*head)->prev-prev = (*head)->prev;** with => **(*head)->prev-prev = (*head)->next;** with:
